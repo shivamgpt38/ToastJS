@@ -1,3 +1,6 @@
+// Author : Shivam kumar
+// Date : 24-08-2020
+
 ((window) => {
     'use strict'
     var x,type;
