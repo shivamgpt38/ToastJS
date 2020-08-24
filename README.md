@@ -11,12 +11,22 @@ Clone this git repository and add the following files to your project
 ```
 
 ## Usage
+Add following lines to your code
 
-```python
-Toaster.init('toastdiv','toasterone')
+#### Inside Body
+```bash
+<div id="toastdiv"></div>
+```
 
+#### Inside Script
+```bash
+Toaster.init('toastdiv','toasterone') // This will initialize toaster with element id. 
+
+// Create a simple toast
 Toaster.toast('I am a toast !!!',"default",3000)
+//Create a simple toast with success
 Toaster.toast('Success toast',"success",3000)
+//Create a simple toast with error
 Toaster.toast('Error toast',"error",3000)
 ```
 
